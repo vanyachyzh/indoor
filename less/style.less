@@ -1,0 +1,848 @@
+// out: ../css/style.css
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background: #2E2E2E;
+}
+
+.wrap{
+    position: relative;
+    width: 1440px;
+    height: 960px;
+
+    .black-wrap{
+        width: 1244px;
+        height: 870px;
+        position: absolute;
+        top: 90px;
+        left: 196px;
+        background: #202020;
+    }
+    .gray-wrap{
+        width: 829px;
+        height: 269px;
+        position: absolute;
+        top: 150px;
+        left: 255px;
+        background: #333232;
+        border-radius: 10px;
+    }
+
+    .logo{
+        font-family: Cera Compact One;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 34px;
+        line-height: 43px;
+        color: #FF158B;
+        position: absolute;
+        top: 27px;
+        left: 59px;
+        display: flex;
+        align-items: center;
+
+        span{
+            width: 4px;
+            height: 40px;
+            display: block;
+            transform: rotate(180deg);
+        }
+    }
+    .menu-item{
+        position: relative;
+        width: 156px;
+        height: 40px;
+        border-radius: 10px;
+        font-family: 'Cera Compact Pro';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 23px;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        box-sizing: border-box;
+        padding: 8.5px 48.01px;
+        
+        &.home{
+            position: absolute;
+            top: 156px;
+            left: 20px;
+            background: #1F1F1F;
+            img{
+                position: absolute;
+                top: 11px;
+                left: 20px;
+                width: 18.01px;
+                height: 20.23px;
+            }
+        }
+        &.library{
+            position: absolute;
+            top: 226px;
+            left: 20px;
+            .library1{
+                width: 17px;
+                height: 21.26px;
+                position: absolute;
+                top: 9.37px;
+                left: 20px;
+            }
+            .library2{
+                width: 2.73px;
+                height: 2.73px;
+                position: absolute;
+                left: 24px;
+                top: 16px;
+            }
+        }
+        &.massage{
+            position: absolute;
+            top: 296px;
+            left: 20px;
+            img{
+                width: 18px;
+                height: 18px;
+                position: absolute;
+                top: 11px;
+                left: 20px;
+            }
+
+        }
+        &.shedule{
+            position: absolute;
+            top: 366px;
+            left: 20px;
+            .shedule1-1 {
+                width: 0.54px;
+                height: 3.33px;
+                position: absolute;
+                top: 13px;
+                left: 24px;
+             }
+            .shedule1-2 {
+                width: 0.54px;
+                height: 3.33px;
+                position: absolute;
+                top: 13px;
+                left: 27.6px;
+             }
+            .shedule1-3 {
+                width: 0.54px;
+                height: 3.33px;
+                position: absolute;
+                top: 13px;
+                left: 31.5px;
+             }
+            .shedule2 {
+                width: 16.18px;
+                height: 4px;
+                position: absolute;
+                top: 13.8px;
+                left: 20px;
+             }
+            .shedule3 {
+                width: 16.16px;
+                height: 9.96px; 
+                position: absolute;
+                top: 17px;
+                left: 20px;
+            } 
+
+        }
+        &.friends{
+            position: absolute;
+            top: 436px;
+            left: 20px;
+            .friends1{
+                width: 8.5px;
+                height: 8.5px;
+                position: absolute;
+                top: 12px;
+                left: 22.92px;
+
+
+            }
+            .friends2{
+                width: 14.34px;
+                height: 7.1px;
+                position: absolute;
+                top: 19px;
+                left: 20px;
+            }
+        }
+    }
+    .search{
+        position: absolute;
+        top: 24px;
+        left: 236px;
+        width: 307px;
+        height: 42px;
+        background: #202020;
+        border-radius: 10px;
+        font-family: Cera Compact Pro;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        padding: 10px 49px;
+        color: white;
+        box-sizing: border-box;
+        
+        img{
+            position: absolute;
+            top: 14.11px;
+            left: 20px;
+            width: 14px;
+            height: 13.79px;
+
+        }
+    }
+    .notifications{
+        position: absolute;
+        top: 25px;
+        left: 1307px;
+        width: 40px;
+        height: 40px;
+    }
+    .settings{
+        position: absolute;
+        top: 25px;
+        left: 1360px;
+        width: 40px;
+        height: 40px;
+    }
+    .chat-list{
+        position: absolute;
+        top: 130px;
+        left: 1127px;
+        width: 273px;
+        height: 490px;
+        background: #2E2E2E;
+        border-radius: 10px;
+        overflow: hidden;
+        font-family: Cera Compact Pro;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 21px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+        padding: 24px;
+        box-sizing: border-box;
+        
+        .add-person {
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            right: 24px;
+            top: 25px;
+            border-radius: 50px;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .items{
+            position: absolute;
+            width: 225px;
+            height: 108px;
+            background: #323232;
+            border-radius: 10px;
+            overflow: hidden;
+            padding: 20px 55px;
+            box-sizing: border-box;
+
+            &.item1{
+                top: 69px;
+                left: 24px;
+            }
+            &.item2{
+                top: 193px;
+                left: 24px;
+            }
+            &.item3{
+                top: 317px;
+                left: 24px;
+            }
+
+            img{
+               width: 30px;
+               height: 30px; 
+               border-radius: 100px;
+               position: absolute;
+               top: 15px;
+               left: 15px;
+            }
+
+            .time{
+                position: absolute;
+                right: 11px;
+                top: 23.5px;
+                font-family: Cera Compact Pro;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 10px;
+                line-height: 13px;
+                color: #16FFAB;
+                opacity: 0.7;
+
+            }
+            
+            .description{
+                font-family: Cera Compact Pro;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 160%;
+                color: #FFFFFF;
+                opacity: 0.7;
+                width: 189px;
+                height: 38px;
+                position: absolute;
+                left: 15px;
+                top: 55px;
+
+            }
+        }
+        .massage{
+            width: 273px;
+            height: 41px;
+            position: absolute;
+            left: 0;
+            top: 449px;
+            overflow: hidden;
+            background: #323232;
+            border-radius: 10px;
+            padding: 11px 25px;
+
+            .gift  {
+                position: absolute;
+                left: 217.83px;
+                top: 16.83px;
+                width: 10px;
+                height: 10px;
+            }
+            .send  {
+                position: absolute;
+                left: 239.83px;
+                top: 16.83px;
+                width: 10px;
+                height: 10px;
+            }
+
+        }
+    }
+    .top-channel{
+        position: absolute;
+        top: 644px;
+        left: 1127px;
+        width: 273px;
+        height: 292px;
+        background: #2E2E2E;
+        border-radius: 10px;
+        overflow: hidden;
+        font-family: Cera Compact Pro;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        padding: 24px;
+        box-sizing: border-box;
+        
+        .items{
+            position: absolute;
+            width: 227.33px;
+            height: 64px;
+            background: #323232;
+            border-radius: 10px;
+            overflow: hidden;
+            padding: 15px 55px;
+            box-sizing: border-box;
+
+            &.item1{
+                top: 69px;
+                left: 24px;
+            }
+            &.item2{
+                top: 149px;
+                left: 24px;
+            }
+            &.item3{
+                top: 229px;
+                left: 24px;
+                height: 38px;
+                border-bottom-left-radius: 0px;
+                border-bottom-right-radius: 0px;
+
+                .icon{
+                    width: 30px;
+                    height: 21px;  
+                    border-bottom-left-radius: 0px;
+                    border-bottom-right-radius: 0px;
+                }
+            }
+
+            .icon{
+               width: 30px;
+               height: 30px; 
+               border-radius: 100px;
+               position: absolute;
+               top: 17px;
+               left: 15px;
+            }
+
+            .star{
+                position: absolute;
+                left: 187px;
+                top: 38.5px;
+                font-family: Cera Compact Pro;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 10px;
+                line-height: 13px;
+                color: #FFFFFF;
+
+                img{
+                    width: 8.33px;
+                    height: 7.96px;
+                    margin-right: 3px;
+                }
+
+            }
+            
+            .description{
+                font-family: Cera Compact Pro;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 10px;
+                line-height: 13px;
+                color: #FFFFFF;
+                opacity: 0.7;
+                width: 189px;
+                height: 38px;
+                position: absolute;
+                left: 55px;
+                top: 36px;
+
+            }
+        }
+    }
+    .statistics-1{            
+        position: absolute;
+        top: 766px;
+        left: 236px;
+        width: 867px;
+        height: 77px;
+        background: #323232;
+        border-radius: 5px;
+        overflow: hidden;
+        padding: 28px 83px;
+        box-sizing: border-box;
+        font-family: Cera Compact Pro;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 17px;
+        line-height: 21px;
+        color: #FFFFFF;
+        
+
+        .icon{
+            position: absolute;
+            width: 44px;
+            height: 47px;
+            top: 15px;
+            left: 24px;
+            border-radius: 10px;
+        }
+
+        .items{
+            width: 70px;
+            height: 38px;
+            position: absolute;
+            top: 19.5px;
+            font-family: Cera Compact Pro;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 15px;
+            color: #FFFFFF;
+
+            img{
+                width: 9.17px;
+                height: 5px;
+                position: absolute;
+                left: 31px;
+                top: 23px;
+            }
+
+            .value{
+                font-family: Cera Compact Pro;
+                font-style: normal;
+                font-weight: 900;
+                font-size: 14px;
+                line-height: 18px;
+                color: #FFFFFF;
+
+            }
+
+            &.total-player{
+                left: 258px;
+            }
+            &.new-player{
+                left: 400px;
+            }
+            &.avg-price{
+                left: 540px;
+            }
+            &.session{
+                left: 669px;
+            }
+        }
+        .high{
+            position: absolute;
+            top: 25px;
+            left: 792px;
+            width: 51px;
+            height: 28px;
+            background: #16FFAB;
+            border-radius: 10px;
+            font-family: Cera Compact Pro;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 14px;
+            line-height: 18px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+    }
+    .statistics-2{
+        position: absolute;
+        top: 859px;
+        left: 236px;
+        width: 867px;
+        height: 77px;
+        background: #323232;
+        border-radius: 5px;
+        overflow: hidden;
+        padding: 28px 83px;
+        box-sizing: border-box;
+        font-family: Cera Compact Pro;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 17px;
+        line-height: 21px;
+        color: #FFFFFF;
+        
+
+        .icon{
+            position: absolute;
+            width: 44px;
+            height: 47px;
+            top: 15px;
+            left: 24px;
+            border-radius: 10px;
+        }
+
+        .items{
+            width: 70px;
+            height: 38px;
+            position: absolute;
+            top: 19.5px;
+            font-family: Cera Compact Pro;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 15px;
+            color: #FFFFFF;
+
+            img{
+                width: 9.17px;
+                height: 5px;
+                position: absolute;
+                left: 31px;
+                top: 23px;
+            }
+
+            .value{
+                font-family: Cera Compact Pro;
+                font-style: normal;
+                font-weight: 900;
+                font-size: 14px;
+                line-height: 18px;
+                color: #FFFFFF;
+
+            }
+
+            &.total-player{
+                left: 258px;
+            }
+            &.new-player{
+                left: 400px;
+            }
+            &.avg-price{
+                left: 540px;
+            }
+            &.session{
+                left: 669px;
+            }
+        }
+        .high{
+            position: absolute;
+            top: 25px;
+            left: 792px;
+            width: 51px;
+            height: 28px;
+            background: #16FFAB;
+            border-radius: 10px;
+            font-family: Cera Compact Pro;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 14px;
+            line-height: 18px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+    }
+    .button-profile{
+        position: absolute;
+        top: 879px;
+        left: 20px;
+        width: 156px;
+        height: 57px;
+        background: #202020;
+        border-radius: 10px;
+        padding: 19px 57px 0;
+        box-sizing: border-box;
+        font-family: Cera Compact Pro;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+
+        .icon{
+            width: 31px;
+            height: 31px;
+            position: absolute;
+            left: 13px;
+            top: 13px;
+        }
+        .arrow{
+            width: 10.59px;
+            height: 5.29px;
+            position: absolute;
+            top: 27.71px;
+            left: 130px;
+        }
+
+    }
+    .main-banner{
+        position: absolute;
+        top: 130px;
+        left: 236px;
+        width: 867px;
+        height: 269px;
+        background-image: url(../img/photos/banner.jpg);
+        background-size: cover;
+        border-radius: 10px;
+        font-family: Cera Compact Pro;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 34px;
+        line-height: 43px;
+        color: #FFFFFF;
+        padding: 66px 40px;
+        box-sizing: border-box;
+
+        span{
+            color: #16FFAB;
+            font-weight: 900;
+        }
+
+        .description{
+            font-family: Cera Compact Pro;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 18px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            position: absolute;
+            left: 40px;
+            top: 40px;
+        }
+        .button-start{
+            position: absolute;
+            width: 145px;
+            height: 55px;
+            left: 70px;
+            bottom: 40px;
+            background: #FF158B;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Cera Compact Pro;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 25px;
+            color: #FFFFFF;
+        }
+        .iron-man{
+            width: 337px;
+            height: 253px;
+            position: absolute;
+            left: 460px;
+            top: 16px;
+        }
+    }
+    .game-items{
+        position: absolute;
+        width: 244px;
+        height: 299px;
+        border-radius: 10px;
+        overflow: hidden;
+
+        &.game1{
+            background: url(../img/photos/Dota\ 2.png);
+            background-size: 100%;
+            top: 443px;
+            left: 236px;
+        }
+        &.game2{
+            background: url(../img/photos/Sea\ of\ Thieves.png);
+            background-size: 100%;
+            top: 443px;
+            left: 504px;
+        }
+        &.game3{
+            background: url(../img/photos/Grand\ Theft\ V.png);
+            background-size: 100%;
+            top: 443px;
+            left: 772px;
+        }
+        &.game4{
+            background: url(../img/photos/Minecraft.png);
+            width: 63px;
+            overflow: hidden;
+            border-bottom-right-radius: 0;
+            border-top-right-radius: 0;
+            top: 443px;
+            left: 1040px;
+        }
+
+        .type{
+            position: absolute;
+            width: 39px;
+            height: 15px;
+            left: 24px;
+            top: 24px;
+            font-family: Cera Compact Pro;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 15px;
+            color:#16FFAB;
+        }
+        .description{
+            position: absolute;
+            width: 244px;
+            height: 92px;
+            left: 0px;
+            top: 207px;
+            background: rgba(50, 50, 50, 0.5);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-sizing: border-box;
+            backdrop-filter: blur(10px);
+            border-radius: 0px 0px 10px 10px;
+            box-sizing: border-box;
+            padding: 16px 24px;
+            font-family: Cera Compact Pro;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 17px;
+            line-height: 21px;
+            letter-spacing: 0.02em;
+            color: #FFFFFF;
+
+            .download{
+                width: 30px;
+                height: 30px;
+                position: absolute;
+                left: 190px;
+                top: 31px;
+                background: #FF158B;
+                box-shadow: 0px 4px 21px rgba(255, 21, 139, 0.7);
+                border-radius: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                img{
+                    width: 6.91px;
+                    height: 9.44px;
+                }
+            }
+
+            .users{
+                width: 100px;
+                height: 18px;
+                font-family: Cera Compact Pro;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 18px;
+                color: #FFFFFF;
+                opacity: 0.7;
+                bottom: 32px;
+                position: absolute;
+                left: 24px;
+                top: 42px;
+            }
+            .stars {
+                width: 11px;
+                height: 10.51px;
+                position: absolute;
+             }
+            .star1 {
+                top: 65px;
+                left: 24px;
+             }
+            .star2 {
+                top: 65px;
+                left: 37px;
+             }
+            .star3 {
+                top: 65px;
+                left: 50px;
+             }
+            .star4 {
+                top: 65px;
+                left: 63px;
+             }
+            .star5 {
+                top: 65px;
+                left: 76px;
+             }
+            
+        }
+
+    }
+}

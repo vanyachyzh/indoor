@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Cera Compact Pro';
+    src: local('Cera Compact Pro Thin'), local('Cera-Compact-Pro-Thin'),
+        url('CeraCompactPro-Thin.woff2') format('woff2'),
+        url('CeraCompactPro-Thin.woff') format('woff'),
+        url('CeraCompactPro-Thin.ttf') format('truetype');
+    /* font-weight: 100;
+    font-style: normal; */
+  }
+@font-face {
+    font-family: 'Cera Compact One';
+    src: local('Cera Compact Pro Black'), local('Cera-Compact-Pro-Black'),
+        url('CeraCompactPro-Black.woff2') format('woff2'),
+        url('CeraCompactPro-Black.woff') format('woff'),
+        url('CeraCompactPro-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+  }

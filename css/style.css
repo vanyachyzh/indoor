@@ -1,0 +1,785 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background: #2E2E2E;
+}
+.wrap {
+  position: relative;
+  width: 1440px;
+  height: 960px;
+}
+.wrap .black-wrap {
+  width: 1244px;
+  height: 870px;
+  position: absolute;
+  top: 90px;
+  left: 196px;
+  background: #202020;
+}
+.wrap .gray-wrap {
+  width: 829px;
+  height: 269px;
+  position: absolute;
+  top: 150px;
+  left: 255px;
+  background: #333232;
+  border-radius: 10px;
+}
+.wrap .logo {
+  font-family: Cera Compact One;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 34px;
+  line-height: 43px;
+  color: #FF158B;
+  position: absolute;
+  top: 27px;
+  left: 59px;
+  display: flex;
+  align-items: center;
+}
+.wrap .logo span {
+  width: 4px;
+  height: 40px;
+  display: block;
+  transform: rotate(180deg);
+}
+.wrap .menu-item {
+  position: relative;
+  width: 156px;
+  height: 40px;
+  border-radius: 10px;
+  font-family: 'Cera Compact Pro';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  box-sizing: border-box;
+  padding: 8.5px 48.01px;
+}
+.wrap .menu-item.home {
+  position: absolute;
+  top: 156px;
+  left: 20px;
+  background: #1F1F1F;
+}
+.wrap .menu-item.home img {
+  position: absolute;
+  top: 11px;
+  left: 20px;
+  width: 18.01px;
+  height: 20.23px;
+}
+.wrap .menu-item.library {
+  position: absolute;
+  top: 226px;
+  left: 20px;
+}
+.wrap .menu-item.library .library1 {
+  width: 17px;
+  height: 21.26px;
+  position: absolute;
+  top: 9.37px;
+  left: 20px;
+}
+.wrap .menu-item.library .library2 {
+  width: 2.73px;
+  height: 2.73px;
+  position: absolute;
+  left: 24px;
+  top: 16px;
+}
+.wrap .menu-item.massage {
+  position: absolute;
+  top: 296px;
+  left: 20px;
+}
+.wrap .menu-item.massage img {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 11px;
+  left: 20px;
+}
+.wrap .menu-item.shedule {
+  position: absolute;
+  top: 366px;
+  left: 20px;
+}
+.wrap .menu-item.shedule .shedule1-1 {
+  width: 0.54px;
+  height: 3.33px;
+  position: absolute;
+  top: 13px;
+  left: 24px;
+}
+.wrap .menu-item.shedule .shedule1-2 {
+  width: 0.54px;
+  height: 3.33px;
+  position: absolute;
+  top: 13px;
+  left: 27.6px;
+}
+.wrap .menu-item.shedule .shedule1-3 {
+  width: 0.54px;
+  height: 3.33px;
+  position: absolute;
+  top: 13px;
+  left: 31.5px;
+}
+.wrap .menu-item.shedule .shedule2 {
+  width: 16.18px;
+  height: 4px;
+  position: absolute;
+  top: 13.8px;
+  left: 20px;
+}
+.wrap .menu-item.shedule .shedule3 {
+  width: 16.16px;
+  height: 9.96px;
+  position: absolute;
+  top: 17px;
+  left: 20px;
+}
+.wrap .menu-item.friends {
+  position: absolute;
+  top: 436px;
+  left: 20px;
+}
+.wrap .menu-item.friends .friends1 {
+  width: 8.5px;
+  height: 8.5px;
+  position: absolute;
+  top: 12px;
+  left: 22.92px;
+}
+.wrap .menu-item.friends .friends2 {
+  width: 14.34px;
+  height: 7.1px;
+  position: absolute;
+  top: 19px;
+  left: 20px;
+}
+.wrap .search {
+  position: absolute;
+  top: 24px;
+  left: 236px;
+  width: 307px;
+  height: 42px;
+  background: #202020;
+  border-radius: 10px;
+  font-family: Cera Compact Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 10px 49px;
+  color: white;
+  box-sizing: border-box;
+}
+.wrap .search img {
+  position: absolute;
+  top: 14.11px;
+  left: 20px;
+  width: 14px;
+  height: 13.79px;
+}
+.wrap .notifications {
+  position: absolute;
+  top: 25px;
+  left: 1307px;
+  width: 40px;
+  height: 40px;
+}
+.wrap .settings {
+  position: absolute;
+  top: 25px;
+  left: 1360px;
+  width: 40px;
+  height: 40px;
+}
+.wrap .chat-list {
+  position: absolute;
+  top: 130px;
+  left: 1127px;
+  width: 273px;
+  height: 490px;
+  background: #2E2E2E;
+  border-radius: 10px;
+  overflow: hidden;
+  font-family: Cera Compact Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  padding: 24px;
+  box-sizing: border-box;
+}
+.wrap .chat-list .add-person {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 24px;
+  top: 25px;
+  border-radius: 50px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrap .chat-list .items {
+  position: absolute;
+  width: 225px;
+  height: 108px;
+  background: #323232;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 20px 55px;
+  box-sizing: border-box;
+}
+.wrap .chat-list .items.item1 {
+  top: 69px;
+  left: 24px;
+}
+.wrap .chat-list .items.item2 {
+  top: 193px;
+  left: 24px;
+}
+.wrap .chat-list .items.item3 {
+  top: 317px;
+  left: 24px;
+}
+.wrap .chat-list .items img {
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+.wrap .chat-list .items .time {
+  position: absolute;
+  right: 11px;
+  top: 23.5px;
+  font-family: Cera Compact Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 13px;
+  color: #16FFAB;
+  opacity: 0.7;
+}
+.wrap .chat-list .items .description {
+  font-family: Cera Compact Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 160%;
+  color: #FFFFFF;
+  opacity: 0.7;
+  width: 189px;
+  height: 38px;
+  position: absolute;
+  left: 15px;
+  top: 55px;
+}
+.wrap .chat-list .massage {
+  width: 273px;
+  height: 41px;
+  position: absolute;
+  left: 0;
+  top: 449px;
+  overflow: hidden;
+  background: #323232;
+  border-radius: 10px;
+  padding: 11px 25px;
+}
+.wrap .chat-list .massage .gift {
+  position: absolute;
+  left: 217.83px;
+  top: 16.83px;
+  width: 10px;
+  height: 10px;
+}
+.wrap .chat-list .massage .send {
+  position: absolute;
+  left: 239.83px;
+  top: 16.83px;
+  width: 10px;
+  height: 10px;
+}
+.wrap .top-channel {
+  position: absolute;
+  top: 644px;
+  left: 1127px;
+  width: 273px;
+  height: 292px;
+  background: #2E2E2E;
+  border-radius: 10px;
+  overflow: hidden;
+  font-family: Cera Compact Pro;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  padding: 24px;
+  box-sizing: border-box;
+}
+.wrap .top-channel .items {
+  position: absolute;
+  width: 227.33px;
+  height: 64px;
+  background: #323232;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 15px 55px;
+  box-sizing: border-box;
+}
+.wrap .top-channel .items.item1 {
+  top: 69px;
+  left: 24px;
+}
+.wrap .top-channel .items.item2 {
+  top: 149px;
+  left: 24px;
+}
+.wrap .top-channel .items.item3 {
+  top: 229px;
+  left: 24px;
+  height: 38px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.wrap .top-channel .items.item3 .icon {
+  width: 30px;
+  height: 21px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.wrap .top-channel .items .icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  position: absolute;
+  top: 17px;
+  left: 15px;
+}
+.wrap .top-channel .items .star {
+  position: absolute;
+  left: 187px;
+  top: 38.5px;
+  font-family: Cera Compact Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 13px;
+  color: #FFFFFF;
+}
+.wrap .top-channel .items .star img {
+  width: 8.33px;
+  height: 7.96px;
+  margin-right: 3px;
+}
+.wrap .top-channel .items .description {
+  font-family: Cera Compact Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 13px;
+  color: #FFFFFF;
+  opacity: 0.7;
+  width: 189px;
+  height: 38px;
+  position: absolute;
+  left: 55px;
+  top: 36px;
+}
+.wrap .statistics-1 {
+  position: absolute;
+  top: 766px;
+  left: 236px;
+  width: 867px;
+  height: 77px;
+  background: #323232;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 28px 83px;
+  box-sizing: border-box;
+  font-family: Cera Compact Pro;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 17px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+.wrap .statistics-1 .icon {
+  position: absolute;
+  width: 44px;
+  height: 47px;
+  top: 15px;
+  left: 24px;
+  border-radius: 10px;
+}
+.wrap .statistics-1 .items {
+  width: 70px;
+  height: 38px;
+  position: absolute;
+  top: 19.5px;
+  font-family: Cera Compact Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+}
+.wrap .statistics-1 .items img {
+  width: 9.17px;
+  height: 5px;
+  position: absolute;
+  left: 31px;
+  top: 23px;
+}
+.wrap .statistics-1 .items .value {
+  font-family: Cera Compact Pro;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+.wrap .statistics-1 .items.total-player {
+  left: 258px;
+}
+.wrap .statistics-1 .items.new-player {
+  left: 400px;
+}
+.wrap .statistics-1 .items.avg-price {
+  left: 540px;
+}
+.wrap .statistics-1 .items.session {
+  left: 669px;
+}
+.wrap .statistics-1 .high {
+  position: absolute;
+  top: 25px;
+  left: 792px;
+  width: 51px;
+  height: 28px;
+  background: #16FFAB;
+  border-radius: 10px;
+  font-family: Cera Compact Pro;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 18px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrap .statistics-2 {
+  position: absolute;
+  top: 859px;
+  left: 236px;
+  width: 867px;
+  height: 77px;
+  background: #323232;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 28px 83px;
+  box-sizing: border-box;
+  font-family: Cera Compact Pro;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 17px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+.wrap .statistics-2 .icon {
+  position: absolute;
+  width: 44px;
+  height: 47px;
+  top: 15px;
+  left: 24px;
+  border-radius: 10px;
+}
+.wrap .statistics-2 .items {
+  width: 70px;
+  height: 38px;
+  position: absolute;
+  top: 19.5px;
+  font-family: Cera Compact Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+}
+.wrap .statistics-2 .items img {
+  width: 9.17px;
+  height: 5px;
+  position: absolute;
+  left: 31px;
+  top: 23px;
+}
+.wrap .statistics-2 .items .value {
+  font-family: Cera Compact Pro;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+.wrap .statistics-2 .items.total-player {
+  left: 258px;
+}
+.wrap .statistics-2 .items.new-player {
+  left: 400px;
+}
+.wrap .statistics-2 .items.avg-price {
+  left: 540px;
+}
+.wrap .statistics-2 .items.session {
+  left: 669px;
+}
+.wrap .statistics-2 .high {
+  position: absolute;
+  top: 25px;
+  left: 792px;
+  width: 51px;
+  height: 28px;
+  background: #16FFAB;
+  border-radius: 10px;
+  font-family: Cera Compact Pro;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 18px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrap .button-profile {
+  position: absolute;
+  top: 879px;
+  left: 20px;
+  width: 156px;
+  height: 57px;
+  background: #202020;
+  border-radius: 10px;
+  padding: 19px 57px 0;
+  box-sizing: border-box;
+  font-family: Cera Compact Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
+.wrap .button-profile .icon {
+  width: 31px;
+  height: 31px;
+  position: absolute;
+  left: 13px;
+  top: 13px;
+}
+.wrap .button-profile .arrow {
+  width: 10.59px;
+  height: 5.29px;
+  position: absolute;
+  top: 27.71px;
+  left: 130px;
+}
+.wrap .main-banner {
+  position: absolute;
+  top: 130px;
+  left: 236px;
+  width: 867px;
+  height: 269px;
+  background-image: url(../img/photos/banner.jpg);
+  background-size: cover;
+  border-radius: 10px;
+  font-family: Cera Compact Pro;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 34px;
+  line-height: 43px;
+  color: #FFFFFF;
+  padding: 66px 40px;
+  box-sizing: border-box;
+}
+.wrap .main-banner span {
+  color: #16FFAB;
+  font-weight: 900;
+}
+.wrap .main-banner .description {
+  font-family: Cera Compact Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  position: absolute;
+  left: 40px;
+  top: 40px;
+}
+.wrap .main-banner .button-start {
+  position: absolute;
+  width: 145px;
+  height: 55px;
+  left: 70px;
+  bottom: 40px;
+  background: #FF158B;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Cera Compact Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+.wrap .main-banner .iron-man {
+  width: 337px;
+  height: 253px;
+  position: absolute;
+  left: 460px;
+  top: 16px;
+}
+.wrap .game-items {
+  position: absolute;
+  width: 244px;
+  height: 299px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.wrap .game-items.game1 {
+  background: url(../img/photos/Dota\ 2.png);
+  background-size: 100%;
+  top: 443px;
+  left: 236px;
+}
+.wrap .game-items.game2 {
+  background: url(../img/photos/Sea\ of\ Thieves.png);
+  background-size: 100%;
+  top: 443px;
+  left: 504px;
+}
+.wrap .game-items.game3 {
+  background: url(../img/photos/Grand\ Theft\ V.png);
+  background-size: 100%;
+  top: 443px;
+  left: 772px;
+}
+.wrap .game-items.game4 {
+  background: url(../img/photos/Minecraft.png);
+  width: 63px;
+  overflow: hidden;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  top: 443px;
+  left: 1040px;
+}
+.wrap .game-items .type {
+  position: absolute;
+  width: 39px;
+  height: 15px;
+  left: 24px;
+  top: 24px;
+  font-family: Cera Compact Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color: #16FFAB;
+}
+.wrap .game-items .description {
+  position: absolute;
+  width: 244px;
+  height: 92px;
+  left: 0px;
+  top: 207px;
+  background: rgba(50, 50, 50, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 0px 0px 10px 10px;
+  box-sizing: border-box;
+  padding: 16px 24px;
+  font-family: Cera Compact Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+.wrap .game-items .description .download {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 190px;
+  top: 31px;
+  background: #FF158B;
+  box-shadow: 0px 4px 21px rgba(255, 21, 139, 0.7);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrap .game-items .description .download img {
+  width: 6.91px;
+  height: 9.44px;
+}
+.wrap .game-items .description .users {
+  width: 100px;
+  height: 18px;
+  font-family: Cera Compact Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #FFFFFF;
+  opacity: 0.7;
+  bottom: 32px;
+  position: absolute;
+  left: 24px;
+  top: 42px;
+}
+.wrap .game-items .description .stars {
+  width: 11px;
+  height: 10.51px;
+  position: absolute;
+}
+.wrap .game-items .description .star1 {
+  top: 65px;
+  left: 24px;
+}
+.wrap .game-items .description .star2 {
+  top: 65px;
+  left: 37px;
+}
+.wrap .game-items .description .star3 {
+  top: 65px;
+  left: 50px;
+}
+.wrap .game-items .description .star4 {
+  top: 65px;
+  left: 63px;
+}
+.wrap .game-items .description .star5 {
+  top: 65px;
+  left: 76px;
+}
